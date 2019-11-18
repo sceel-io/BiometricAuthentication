@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB020A5923745C4E006A6B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A5823745C4E006A6B4D /* AppDelegate.swift */; };
+		AB020A6523745C4F006A6B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB020A6323745C4F006A6B4D /* LaunchScreen.storyboard */; };
+		AB020ABD23745CAF006A6B4D /* BiometricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A7C23745CAE006A6B4D /* BiometricAuthenticator.swift */; };
+		AB020ABE23745CAF006A6B4D /* StackDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A7D23745CAE006A6B4D /* StackDependencies.swift */; };
+		AB020ABF23745CAF006A6B4D /* AuthenticationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A7E23745CAE006A6B4D /* AuthenticationErrors.swift */; };
+		AB020AC023745CAF006A6B4D /* AuthenticationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A7F23745CAE006A6B4D /* AuthenticationProvider.swift */; };
+		AB020AC123745CAF006A6B4D /* ViewInterface+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A8123745CAE006A6B4D /* ViewInterface+Alert.swift */; };
+		AB020AC323745CAF006A6B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB020A8323745CAE006A6B4D /* Assets.xcassets */; };
+		AB020AD023745CAF006A6B4D /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A9423745CAE006A6B4D /* ProfilePresenter.swift */; };
+		AB020AD123745CAF006A6B4D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB020A9523745CAE006A6B4D /* Profile.storyboard */; };
+		AB020AD223745CAF006A6B4D /* ProfileInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A9623745CAE006A6B4D /* ProfileInterfaces.swift */; };
+		AB020AD323745CAF006A6B4D /* ProfileWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A9723745CAE006A6B4D /* ProfileWireframe.swift */; };
+		AB020AD423745CAF006A6B4D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A9823745CAE006A6B4D /* ProfileViewController.swift */; };
+		AB020AD523745CAF006A6B4D /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020A9923745CAE006A6B4D /* ProfileInteractor.swift */; };
+		AB020AE223745CAF006A6B4D /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AA923745CAE006A6B4D /* LoginInteractor.swift */; };
+		AB020AE323745CAF006A6B4D /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AAA23745CAE006A6B4D /* LoginWireframe.swift */; };
+		AB020AE423745CAF006A6B4D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB020AAB23745CAE006A6B4D /* Login.storyboard */; };
+		AB020AE523745CAF006A6B4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AAC23745CAE006A6B4D /* LoginViewController.swift */; };
+		AB020AE623745CAF006A6B4D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AAD23745CAE006A6B4D /* LoginPresenter.swift */; };
+		AB020AE723745CAF006A6B4D /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AAE23745CAE006A6B4D /* LoginInterfaces.swift */; };
+		AB020AE823745CAF006A6B4D /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB023745CAE006A6B4D /* Wireframe.swift */; };
+		AB020AE923745CAF006A6B4D /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB123745CAE006A6B4D /* Dependencies.swift */; };
+		AB020AEA23745CAF006A6B4D /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB223745CAE006A6B4D /* UIStoryboardExtension.swift */; };
+		AB020AEB23745CAF006A6B4D /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB323745CAE006A6B4D /* PresenterInterface.swift */; };
+		AB020AEC23745CAF006A6B4D /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB423745CAE006A6B4D /* ViewInterface.swift */; };
+		AB020AED23745CAF006A6B4D /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB020AB523745CAE006A6B4D /* InteractorInterface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB020A5523745C4E006A6B4D /* BiometricAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB020A5823745C4E006A6B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB020A6423745C4F006A6B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB020A7C23745CAE006A6B4D /* BiometricAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticator.swift; sourceTree = "<group>"; };
+		AB020A7D23745CAE006A6B4D /* StackDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackDependencies.swift; sourceTree = "<group>"; };
+		AB020A7E23745CAE006A6B4D /* AuthenticationErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationErrors.swift; sourceTree = "<group>"; };
+		AB020A7F23745CAE006A6B4D /* AuthenticationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationProvider.swift; sourceTree = "<group>"; };
+		AB020A8123745CAE006A6B4D /* ViewInterface+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewInterface+Alert.swift"; sourceTree = "<group>"; };
+		AB020A8323745CAE006A6B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB020A9423745CAE006A6B4D /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		AB020A9523745CAE006A6B4D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		AB020A9623745CAE006A6B4D /* ProfileInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInterfaces.swift; sourceTree = "<group>"; };
+		AB020A9723745CAE006A6B4D /* ProfileWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileWireframe.swift; sourceTree = "<group>"; };
+		AB020A9823745CAE006A6B4D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AB020A9923745CAE006A6B4D /* ProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		AB020AA923745CAE006A6B4D /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		AB020AAA23745CAE006A6B4D /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		AB020AAB23745CAE006A6B4D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AB020AAC23745CAE006A6B4D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB020AAD23745CAE006A6B4D /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		AB020AAE23745CAE006A6B4D /* LoginInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
+		AB020AB023745CAE006A6B4D /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		AB020AB123745CAE006A6B4D /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		AB020AB223745CAE006A6B4D /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		AB020AB323745CAE006A6B4D /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		AB020AB423745CAE006A6B4D /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		AB020AB523745CAE006A6B4D /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		AB020ABB23745CAE006A6B4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB020A5223745C4E006A6B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB020A4C23745C4E006A6B4D = {
+			isa = PBXGroup;
+			children = (
+				AB020A5723745C4E006A6B4D /* BiometricAuthentication */,
+				AB020A5623745C4E006A6B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB020A5623745C4E006A6B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A5523745C4E006A6B4D /* BiometricAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB020A5723745C4E006A6B4D /* BiometricAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A5823745C4E006A6B4D /* AppDelegate.swift */,
+				AB020A8423745CAE006A6B4D /* Modules */,
+				AB020A7A23745CAE006A6B4D /* Services */,
+				AB020AF123745CD7006A6B4D /* Supporting Files */,
+				AB020A8023745CAE006A6B4D /* Utils */,
+				AB020AAF23745CAE006A6B4D /* VIPER Core */,
+			);
+			path = BiometricAuthentication;
+			sourceTree = "<group>";
+		};
+		AB020A7A23745CAE006A6B4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A7C23745CAE006A6B4D /* BiometricAuthenticator.swift */,
+				AB020A7D23745CAE006A6B4D /* StackDependencies.swift */,
+				AB020A7E23745CAE006A6B4D /* AuthenticationErrors.swift */,
+				AB020A7F23745CAE006A6B4D /* AuthenticationProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB020A8023745CAE006A6B4D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A8123745CAE006A6B4D /* ViewInterface+Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AB020A8423745CAE006A6B4D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A9323745CAE006A6B4D /* Profile */,
+				AB020AA823745CAE006A6B4D /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AB020A9323745CAE006A6B4D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A9423745CAE006A6B4D /* ProfilePresenter.swift */,
+				AB020A9523745CAE006A6B4D /* Profile.storyboard */,
+				AB020A9623745CAE006A6B4D /* ProfileInterfaces.swift */,
+				AB020A9723745CAE006A6B4D /* ProfileWireframe.swift */,
+				AB020A9823745CAE006A6B4D /* ProfileViewController.swift */,
+				AB020A9923745CAE006A6B4D /* ProfileInteractor.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AB020AA823745CAE006A6B4D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB020AA923745CAE006A6B4D /* LoginInteractor.swift */,
+				AB020AAA23745CAE006A6B4D /* LoginWireframe.swift */,
+				AB020AAB23745CAE006A6B4D /* Login.storyboard */,
+				AB020AAC23745CAE006A6B4D /* LoginViewController.swift */,
+				AB020AAD23745CAE006A6B4D /* LoginPresenter.swift */,
+				AB020AAE23745CAE006A6B4D /* LoginInterfaces.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB020AAF23745CAE006A6B4D /* VIPER Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB020AB023745CAE006A6B4D /* Wireframe.swift */,
+				AB020AB123745CAE006A6B4D /* Dependencies.swift */,
+				AB020AB223745CAE006A6B4D /* UIStoryboardExtension.swift */,
+				AB020AB323745CAE006A6B4D /* PresenterInterface.swift */,
+				AB020AB423745CAE006A6B4D /* ViewInterface.swift */,
+				AB020AB523745CAE006A6B4D /* InteractorInterface.swift */,
+			);
+			path = "VIPER Core";
+			sourceTree = "<group>";
+		};
+		AB020AF123745CD7006A6B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB020A8323745CAE006A6B4D /* Assets.xcassets */,
+				AB020ABB23745CAE006A6B4D /* Info.plist */,
+				AB020A6323745C4F006A6B4D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB020A5423745C4E006A6B4D /* BiometricAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB020A7423745C4F006A6B4D /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */;
+			buildPhases = (
+				AB020A5123745C4E006A6B4D /* Sources */,
+				AB020A5223745C4E006A6B4D /* Frameworks */,
+				AB020A5323745C4E006A6B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiometricAuthentication;
+			productName = BiometricAuth;
+			productReference = AB020A5523745C4E006A6B4D /* BiometricAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB020A4D23745C4E006A6B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Roman Huti";
+				TargetAttributes = {
+					AB020A5423745C4E006A6B4D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = AB020A5023745C4E006A6B4D /* Build configuration list for PBXProject "BiometricAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB020A4C23745C4E006A6B4D;
+			productRefGroup = AB020A5623745C4E006A6B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB020A5423745C4E006A6B4D /* BiometricAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB020A5323745C4E006A6B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB020A6523745C4F006A6B4D /* LaunchScreen.storyboard in Resources */,
+				AB020AC323745CAF006A6B4D /* Assets.xcassets in Resources */,
+				AB020AD123745CAF006A6B4D /* Profile.storyboard in Resources */,
+				AB020AE423745CAF006A6B4D /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB020A5123745C4E006A6B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB020AD323745CAF006A6B4D /* ProfileWireframe.swift in Sources */,
+				AB020AE623745CAF006A6B4D /* LoginPresenter.swift in Sources */,
+				AB020AE723745CAF006A6B4D /* LoginInterfaces.swift in Sources */,
+				AB020AED23745CAF006A6B4D /* InteractorInterface.swift in Sources */,
+				AB020ABE23745CAF006A6B4D /* StackDependencies.swift in Sources */,
+				AB020AC023745CAF006A6B4D /* AuthenticationProvider.swift in Sources */,
+				AB020AEC23745CAF006A6B4D /* ViewInterface.swift in Sources */,
+				AB020AE323745CAF006A6B4D /* LoginWireframe.swift in Sources */,
+				AB020AE823745CAF006A6B4D /* Wireframe.swift in Sources */,
+				AB020ABD23745CAF006A6B4D /* BiometricAuthenticator.swift in Sources */,
+				AB020AC123745CAF006A6B4D /* ViewInterface+Alert.swift in Sources */,
+				AB020A5923745C4E006A6B4D /* AppDelegate.swift in Sources */,
+				AB020AE523745CAF006A6B4D /* LoginViewController.swift in Sources */,
+				AB020AE223745CAF006A6B4D /* LoginInteractor.swift in Sources */,
+				AB020AD423745CAF006A6B4D /* ProfileViewController.swift in Sources */,
+				AB020AD223745CAF006A6B4D /* ProfileInterfaces.swift in Sources */,
+				AB020AE923745CAF006A6B4D /* Dependencies.swift in Sources */,
+				AB020AEA23745CAF006A6B4D /* UIStoryboardExtension.swift in Sources */,
+				AB020AEB23745CAF006A6B4D /* PresenterInterface.swift in Sources */,
+				AB020ABF23745CAF006A6B4D /* AuthenticationErrors.swift in Sources */,
+				AB020AD023745CAF006A6B4D /* ProfilePresenter.swift in Sources */,
+				AB020AD523745CAF006A6B4D /* ProfileInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB020A6323745C4F006A6B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB020A6423745C4F006A6B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB020A7223745C4F006A6B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB020A7323745C4F006A6B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB020A7523745C4F006A6B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EWZN3DN9R;
+				INFOPLIST_FILE = "$(SRCROOT)/BiometricAuthentication/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sceel.BiometricAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB020A7623745C4F006A6B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EWZN3DN9R;
+				INFOPLIST_FILE = "$(SRCROOT)/BiometricAuthentication/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sceel.BiometricAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB020A5023745C4E006A6B4D /* Build configuration list for PBXProject "BiometricAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB020A7223745C4F006A6B4D /* Debug */,
+				AB020A7323745C4F006A6B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB020A7423745C4F006A6B4D /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB020A7523745C4F006A6B4D /* Debug */,
+				AB020A7623745C4F006A6B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB020A4D23745C4E006A6B4D /* Project object */;
+}
